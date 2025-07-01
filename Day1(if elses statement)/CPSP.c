@@ -14,7 +14,7 @@ int main()
     int profit = SP-CP;
     printf("Profit is : %d",profit );
    }
-   if (CP>SP)
+   else if (CP>SP)
    {
 
     int loss = CP-SP;

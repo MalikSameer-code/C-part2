@@ -5,16 +5,6 @@ int main()
    printf("Enter the number");
    scanf("%d",&n);
 
-//    if (n%3==0)
-//    {
-    
-//     printf("it is a number divisible by 3 ");
-//    }
-//     if (n%5==0)
-//    {
-//     printf("it is a number divisible by 5 ");
-//    }
-
    if (n%5==0 && n%3==0)
    {
     printf("it is a number divisible by 5 and 3 ");
