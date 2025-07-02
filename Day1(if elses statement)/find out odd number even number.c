@@ -10,7 +10,7 @@ int main()
     scanf("%d",&n);
     if(n%2==0)
     {
-      printf("Evenn number");
+      printf("Even number");
     }
     // if (n%2!=0)
     // {
