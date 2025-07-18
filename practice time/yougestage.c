@@ -6,21 +6,24 @@ int main()
     scanf("%d",&R);
     int S;
     printf("Enter age of Shyam : ");
-    scanf("%d",&R);
+    scanf("%d",&S);
     int A;
     printf("Enter age of Ajay : ");
-    scanf("%d",&R);
+    scanf("%d",&A);
 
-    if (R<S && R<A)
+    if (R>S)
     {
-      printf("Ram is youngest ");
+      if (R>A)
+        printf("%d is the younger ",S);
+      else
+        printf("%d is the younger ",A);
+    } 
+    if (S>R)
+    {
+      if (S>A)
+        printf("%d is the younger ",R);
+      else
+        printf("%d is the younger ",A);
     }
     
-   else if (S<R && S<A)
-    {
-      printf("Shyam is youngest ");
-    }
-    else{
-        printf("Ajay is the youngest");
-    }
 }
